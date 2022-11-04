@@ -327,12 +327,17 @@ body._lock {
 }
 @media (max-height: 479px) {
   .basic__title {
-    margin: 0 0 20px 0;
+    margin: 0 0 15px 0;
   }
 }
 .basic__column {
   display: flex;
   gap: 30px;
+}
+@media (max-width: 767px) {
+  .basic__column {
+    gap: 15px;
+  }
 }
 .basic__bottom {
   display: flex;
@@ -360,6 +365,7 @@ body._lock {
 @media (max-width: 550px) {
   .column__items {
     flex: 1 1 40%;
+    padding: 15px 25px;
   }
 }
 .column__time {
